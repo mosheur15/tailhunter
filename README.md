@@ -6,7 +6,7 @@ Tailhunter is a tool for finding hidden pages
 using url endpoints, based on dictionary attacks (wordlist).
 
 Tailhunter is a asynchronous project.
-So you can send a buch of requests to the server
+So you can send a bunch of requests to the server
 at a same time. you'll get kind of 'Hydra' like feeling, 
 while using it. 
 
