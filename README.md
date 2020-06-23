@@ -13,7 +13,7 @@ while using it.
 # [installation]
 
 ```
-$ apt-get install git python
+$ apt-get install git python clang
 
 $ git clone https://github.com/mosheur15/tailhunter.git
 
@@ -37,4 +37,19 @@ $ tailhunter -u [example.com] -w [example_wordlist.txt]
 
 ```
 $ pip uninstall tailhunter
-````
+```
+# [installation errors]
+
+If you face any errors while installing,
+try this:
+
+```
+$ pip install cython
+$ apt-get install clang
+```
+Then try to install again by:
+
+```
+$ pip install --editable .
+```
+
