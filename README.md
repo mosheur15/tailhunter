@@ -30,7 +30,7 @@ anywhere in the terminal.
 # [Run]
 
 ```
-$ tailhunter -u [example.com] -t [example_wordlist.txt]
+$ tailhunter -u [example.com] -w [example_wordlist.txt]
 ```
 
 # [Uninstall]
